@@ -1,0 +1,25 @@
+@import "../../styles/variables";
+
+.navigation {
+  max-width: 114rem;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 0 auto;
+}
+
+.header {
+  min-width: 100vw;
+  background-color: $bg-dark-purple;
+  padding-top: 5.6rem;
+}
+
+.link {
+  color: $text-white;
+  font-family: "Manrope";
+  text-decoration: none;
+  border-bottom: 3px solid $accent-eucalyptus;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  transition: all 0.2s ease-in-out;
+}
