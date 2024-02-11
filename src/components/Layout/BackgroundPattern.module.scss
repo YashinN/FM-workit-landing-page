@@ -1,0 +1,17 @@
+.backgroundPattern {
+  position: absolute;
+  top: 0;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 100%;
+  z-index: -10;
+}
+
+.bgPurple {
+  position: relative;
+  z-index: 2;
+}
+.bgPink {
+  position: relative;
+  transform: translateY(-226px);
+}

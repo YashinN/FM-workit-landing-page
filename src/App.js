@@ -1,7 +1,7 @@
 import Header from "./components/Header/Header";
 import Main from "./components/Layout/Main";
 import HeroSection from "./components/Hero/HeroSection";
-import BackgroundPattern from "./components/Layout/BackgroundPatternHero";
+import BackgroundPattern from "./components/Layout/BackgroundPattern";
 import Solutions from "./components/Solutions/Solutions";
 function App() {
   return (
