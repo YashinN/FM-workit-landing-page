@@ -1,6 +1,6 @@
-import styles from "./BackgroundPattern.module.scss";
+import styles from "./BackgroundPatternHero.module.scss";
 
-const BackgroundPattern = () => {
+const BackgroundPatternHero = () => {
   return (
     <svg
       className={styles.bgPurpleCurve}
@@ -18,4 +18,4 @@ const BackgroundPattern = () => {
   );
 };
 
-export default BackgroundPattern;
+export default BackgroundPatternHero;
