@@ -1,0 +1,58 @@
+@import "../../styles/variables";
+
+.heroSection {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 5rem;
+  background-color: $bg-dark-purple;
+  margin-top: 6.3rem;
+}
+
+.headerBlock {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 3.7rem;
+}
+
+.heading {
+  font-family: "Fraunce";
+  color: $text-white;
+  font-size: 8rem;
+  text-align: center;
+  line-height: 8rem;
+
+  &_underline {
+    text-decoration: 3px underline $accent-eucalyptus;
+    text-underline-offset: 1rem;
+  }
+
+  &_inline {
+    display: block;
+  }
+}
+
+.learnBtn {
+  background-color: $accent-eucalyptus;
+  height: 6.1rem;
+  width: 16.6rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-family: "Manrope";
+  color: $text-dark-purple;
+  text-decoration: none;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+.imageWrapper {
+  max-width: 441px;
+  max-height: 767px;
+}
+.heroImage {
+  width: 100%;
+}
