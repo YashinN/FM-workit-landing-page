@@ -1,6 +1,17 @@
 // Fonts
+@font-face {
+  font-family: "Fraunce";
+  src: url("../Assets/Fonts/Fraunces-VariableFont_SOFT\,WONK\,opsz\,wght.ttf");
+}
+
+@font-face {
+  font-family: "Manrope";
+  src: url("../Assets/Fonts/Manrope-VariableFont_wght.ttf");
+}
 
 // Text Colours
+$text-white: #fff;
+$text-dark-purple: #24053e;
 
 // Background Colours
 $bg-dark-purple: #24053e;
