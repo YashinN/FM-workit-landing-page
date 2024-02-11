@@ -6,8 +6,8 @@
   justify-content: center;
   align-items: center;
   gap: 5rem;
-  background-color: $bg-dark-purple;
   margin-top: 6.3rem;
+  overflow-y: visible;
 }
 
 .headerBlock {
@@ -16,6 +16,7 @@
   align-items: center;
   flex-direction: column;
   gap: 3.7rem;
+  margin-bottom: 5rem;
 }
 
 .heading {
@@ -50,8 +51,8 @@
 }
 
 .imageWrapper {
-  max-width: 441px;
-  max-height: 767px;
+  max-width: 767px;
+  max-height: 441px;
 }
 .heroImage {
   width: 100%;
