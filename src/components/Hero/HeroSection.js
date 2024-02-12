@@ -1,5 +1,6 @@
 import heroImage from "../../Assets/Images/image-hero.webp";
 import styles from "./HeroSection.module.scss";
+import LinkButton from "../UI/LinkButton";
 
 const HeroSection = () => {
   return (
@@ -9,9 +10,8 @@ const HeroSection = () => {
           Data <span className={styles.heading_underline}>tailored</span> to{" "}
           <span className={styles.heading_inline}>your needs.</span>
         </h1>
-        <a href="#" className={styles.learnBtn}>
-          Learn more
-        </a>
+
+        <LinkButton text={"Learn More"} />
       </div>
 
       <div className={styles.imageWrapper}>

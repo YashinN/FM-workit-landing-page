@@ -1,0 +1,24 @@
+@import "../../styles/variables";
+
+.linkBtn {
+  background-color: $accent-eucalyptus;
+  color: $text-dark-purple;
+  font-size: 1.8rem;
+  line-height: 3.2rem;
+  text-decoration: none;
+  height: 6.1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  font-weight: bold;
+  width: max-content;
+  padding: 0 3.6rem;
+
+  &:hover,
+  :active {
+    color: $accent-eucalyptus;
+    background-color: transparent;
+    outline: 2px solid $accent-eucalyptus;
+    outline-offset: -2px;
+  }
+}

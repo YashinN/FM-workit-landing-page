@@ -1,5 +1,6 @@
 import styles from "./Mesage.module.scss";
 import founderImage from "../../Assets/Images/image-founder.webp";
+import LinkButton from "../UI/LinkButton";
 
 const Message = () => {
   return (
@@ -18,7 +19,7 @@ const Message = () => {
             company. Apply for access below and I’ll be in touch to schedule a
             call.
           </p>
-          <button>Apply for access</button>
+          <LinkButton text={"Apply fo access"} />
         </article>
       </div>
     </section>
