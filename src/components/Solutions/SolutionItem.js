@@ -1,15 +1,12 @@
 import styles from "./SolutionItem.module.scss";
 
-const SolutionItem = () => {
+const SolutionItem = ({ title, description, index }) => {
   return (
     <div className={styles.solutionItem}>
-      <span>1</span>
+      <span>{index + 1}</span>
       <div className={styles.solutionItemContent}>
-        <h2>Actionable insights</h2>
-        <p>
-          Optimize your products, improve customer satisfaction and stay ahead
-          of the competition with our product data analytics.
-        </p>
+        <h2>{title}</h2>
+        <p>{description}</p>
       </div>
     </div>
   );
