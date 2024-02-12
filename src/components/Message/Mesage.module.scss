@@ -1,0 +1,46 @@
+@import "../../styles/variables";
+
+.messageSection {
+  display: flex;
+  justify-content: center;
+  height: 647.74px;
+}
+
+.sectionCenter {
+  width: 100%;
+  max-width: 112rem;
+  position: relative;
+}
+
+.messageBox {
+  color: $text-white;
+  background-color: $bg-dark-purple;
+  padding: 6.4rem;
+  max-width: 73rem;
+  display: flex;
+  flex-direction: column;
+  gap: 3.2rem;
+  position: absolute;
+  bottom: 61.74px;
+  right: 0;
+
+  h2 {
+    font-size: 5.6rem;
+    line-height: 6.4rem;
+  }
+
+  p {
+    font-family: "Manrope";
+    font-size: 1.8rem;
+    line-height: 3.2rem;
+    max-width: 60.2rem;
+  }
+
+  button {
+    height: 61px;
+  }
+}
+
+.founderImg {
+  width: 47.7rem;
+}
